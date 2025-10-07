@@ -29,3 +29,9 @@ while True:
         phone = f"({digits[0:3]}) {digits[3:6]}-{digits[6:]}"
     else:
         phone = phone.strip()
+        
+    #format Email
+    email = parts[2].strip().lower()
+
+    #format Address
+    address = ' '.join(word.capitalize() for word in parts[3].strip().split())
