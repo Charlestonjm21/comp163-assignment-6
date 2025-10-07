@@ -17,3 +17,6 @@ while True:
     if len(parts) != 4:
         print("Invalid format. Please enter exactly four fields separated by '|'.")
         continue
+    
+    #format Name
+    name_raw = parts[0].strip().split()
