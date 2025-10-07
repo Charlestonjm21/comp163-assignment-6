@@ -20,3 +20,12 @@ while True:
     
     #format Name
     name_raw = parts[0].strip().split()
+
+        name = " ".join([part.capitalize() for part in name_raw])
+    #format Phone
+    phone = parts[1]
+    digits = "".join(ch for ch in phone if ch.isdigit())
+    if len(digits) == 10:
+        phone = f"({digits[0:3]}) {digits[3:6]}-{digits[6:]}"
+    else:
+        phone = phone.strip()
