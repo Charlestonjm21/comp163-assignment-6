@@ -3,7 +3,6 @@
 # Assignment 6: Contact Information Formatter 
 # Demonstrates mastery of string methods for data cleaning and formatting
 
-
 # input collection
 contacts = []
 
